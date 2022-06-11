@@ -1,0 +1,9 @@
+document.getElementById("mybtn").addEventListener("click",function(){
+    window.open('sunindex.html');
+});
+document.getElementById("mybtn1").addEventListener("click",function(){
+    window.open('sunindex.html');
+});
+document.getElementById("mybtn2").addEventListener("click",function(){
+    window.open('sunindex.html');
+});

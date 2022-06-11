@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgba(255,75,105);
+}
+#heading{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#form{
+    position:fixed;    
+    align-items: center;
+    margin-left: 37%;
+    margin-top: 10%;
+}
+.btn{
+
+    padding:10px 90px 10px;
+    margin: 40px 55px;
+}
+.sumbit{
+    text-align: center;
+}
