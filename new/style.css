@@ -1,0 +1,194 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+}
+.subnavlinks{
+    padding:3% 5% ;
+    text-decoration: none;
+    margin: 0px 30px ;
+    color: black;
+
+}
+.navbar-nav li a:hover{
+    
+    color: dimgray;
+}
+.navigation{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.imag{
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://miro.medium.com/max/1400/0*BzXB9T9_lxEJdutd);
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    
+}
+.start{
+
+    font-size: 60px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.stop{
+    margin: 50px 10px;
+    color: white;
+    font-size: 20px;
+}
+.butt{
+    margin: 40px 10px;
+    padding: 10px 20px;
+}
+.content{
+    margin-left: 50px;
+}
+.social-media{
+    margin: 160px 10px;
+}
+.fa-2x{
+    padding: 0px 10px;
+    color: aqua;
+}
+.fa-2x:hover{
+    color: white;
+}
+#about{
+   margin-top: 10%;
+    min-height: 70vh;
+    margin-left: 12%;
+}
+.feature{
+    margin:5% 0% 3% 35%;
+}
+.feature1{
+    margin-top: 20px;
+    margin-left: 60px;
+    margin-bottom: 70px;
+}
+.key-features{
+    text-align: center;
+    padding: 5%;
+}
+.head-key{
+    margin-right: 10%;
+    margin-bottom: 5%;
+    padding-right: 5%;
+}
+.fa-4x:hover{
+    color:rgba(255,76,104);
+}
+#design{
+    min-height: 95vh;
+    background-color: #f1f1f1;
+}
+.degin{
+    margin-top: 13%;
+}
+#team{
+    min-height: 110vh;
+}
+.owner{
+    margin-left: 42%;
+    margin-top: 7%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.runs{
+    margin-left: 41%;
+    margin-top: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.teamates{
+   margin-left: 3%;
+  
+   
+}
+.teamates-head{
+    margin-top: 5%;
+    padding: 7% 5%; 
+    
+}
+.contact-button{
+    padding: 2% 35%;
+}
+#stats{
+    min-height: 25vh;
+    background-color: #616161;
+}
+.statistics{
+    margin-left: 12%;
+    color: azure;
+   
+}
+.col-lg-4{
+    text-align: center;
+}
+.price-head{
+    margin-left: 7%;
+    margin-top: 4%;
+}
+.heading{
+    margin-top: 10%;
+    margin-left: 45%;
+    
+}
+.price{
+    min-height: 90vh;
+    background-color:#f1f1f1;
+}
+.price-header{
+    background-color: black;
+    color: white;
+}
+.price-headerr{
+    background-color: palevioletred;
+    color: white;
+}
+#extra-image{
+    min-height: 130vh;
+}
+.footer{
+    min-height: 30vh;
+    background-color: black;
+}
+@media (max-width:700px) {
+*{
+    margin: 0%;
+    padding: 0%;
+    
+    
+}    
+.social-media{
+      display: none;
+    }
+ .feature{
+    display: block;
+    text-align: center;
+    margin-right: 30%;
+ } 
+ .feature1{
+    display: none;
+ } 
+ .degind{
+    
+    text-align: center;
+ } 
+ .owner{
+    text-align: center;
+ }
+ .extra-img{
+    width: 100%;
+ }
+ .set-img{
+    width: 100%;
+ }
+ .owner{
+   margin-right: 30%;
+ }
+ 
+}
